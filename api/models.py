@@ -13,3 +13,4 @@ class Seat(models.Model):
     isReserved = models.BooleanField(default=False)
     fare = models.IntegerField()
     reservationID = models.UUIDField(null=True, default=None)
+
